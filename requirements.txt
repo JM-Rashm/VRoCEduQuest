@@ -1,0 +1,6 @@
+Flask
+Flask-Cors
+flask_smorest
+flask_sqlalchemy
+openai
+langchain

@@ -7,7 +7,7 @@ app = appInstance['app']
 config = appInstance['config']
 
 CORS(app)
-CORS(app, resources={r"/api/*": {"origins": "http://localhost:3000"}})
+CORS(app, resources={r"/api/*": {"origins": "*"}})
 
 if __name__ == "__main__":
     app.run(debug= config.DEBUG)

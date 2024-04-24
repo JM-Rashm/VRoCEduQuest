@@ -11,4 +11,5 @@ quiz_controller = QuizController()
 class QuizResouecr(MethodView):
     
     def post(self):
-        return quiz_controller.getQAList()
+        # return quiz_controller.getQAList()
+        return quiz_controller.ExtractQA()
